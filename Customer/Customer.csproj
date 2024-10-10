@@ -8,7 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.8.0" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AniMail\AniMail.csproj" />
     <ProjectReference Include="..\AnimeBusinessService\AnimeBusinessService.csproj" />
+    <ProjectReference Include="..\AnimeData\AnimeData.csproj" />
     <ProjectReference Include="..\AnimeModels\AniModels.csproj" />
   </ItemGroup>
 

@@ -10,12 +10,14 @@ namespace AnimeData
 {
     public class SqlDb
     {
-        string connection = "Server = tcp:20.2.250.60,1433; Database =Jether; User Id =sa; Password =bsit2!";
+        static string connectionString
+         = "Data Source =DESKTOP-GDSL52M\\SQLEXPRESS; Initial Catalog = Jether; Integrated Security = True;";
+        //= "Server = tcp:20.2.250.60,1433; Database =Jether; User Id =sa; Password =bsit2!";
         SqlConnection sqlConnection;
 
         public SqlDb()
         {
-            sqlConnection = new SqlConnection(connection);
+            sqlConnection = new SqlConnection(connectionString);
         }
 
         public List<Anime> GetAnimes()

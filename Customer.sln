@@ -5,13 +5,15 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer", "Customer\Customer.csproj", "{39AE3754-CFBE-4471-92BF-FD3BD48B75D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeAPI", "AnimeAPI\AnimeAPI.csproj", "{8E3FD0AD-AD8B-4AC9-923A-654CF1CD046E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeAPI", "AnimeAPI\AnimeAPI.csproj", "{8E3FD0AD-AD8B-4AC9-923A-654CF1CD046E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeBusinessService", "AnimeBusinessService\AnimeBusinessService.csproj", "{5767E152-F8FA-4855-A8B4-770961A3AC94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeBusinessService", "AnimeBusinessService\AnimeBusinessService.csproj", "{5767E152-F8FA-4855-A8B4-770961A3AC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeData", "AnimeData\AnimeData.csproj", "{728B83FD-8066-4627-91C1-13B72567294E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeData", "AnimeData\AnimeData.csproj", "{728B83FD-8066-4627-91C1-13B72567294E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniModels", "AnimeModels\AniModels.csproj", "{D143EA1B-F02C-42C3-9D0E-D38951848F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AniModels", "AnimeModels\AniModels.csproj", "{D143EA1B-F02C-42C3-9D0E-D38951848F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39A37894-37FB-4C63-B73D-7E560D89EB97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

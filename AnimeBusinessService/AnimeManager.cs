@@ -14,6 +14,17 @@ namespace AnimeBusinessService
         AnimeValidator validator = new AnimeValidator();
         AnimeFunctions functions = new AnimeFunctions();
 
+        public List<Anime> GetAllAnimes()
+        {
+            return functions.GetAnimes();
+        }
+
+        public Anime GetByName(string name)
+        {
+            var animes = functions.GetAnimes();
+            return animes.Find(anime => anime.Name == name);
+        }
+
         public bool CreateAnime(Anime anime)
         {
             bool result = false;
